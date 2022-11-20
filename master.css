@@ -11,9 +11,3 @@ img{
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
-
-$('#sandbox-container .input-daterange').datepicker({
-    todayBtn: "linked",
-    autoclose: true,
-    todayHighlight: true
-});
