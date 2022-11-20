@@ -3,3 +3,17 @@ body{
   text-align: center;
   font-size: 1em;
 }
+
+img{
+  min-height: 20vh;
+  min-width: 200vh;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+$('#sandbox-container .input-daterange').datepicker({
+    todayBtn: "linked",
+    autoclose: true,
+    todayHighlight: true
+});
