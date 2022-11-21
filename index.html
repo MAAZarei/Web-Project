@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>بلیت پرواز</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+
+            <img src="background2.webp" width="200" alt="">
+            <div class="d- align-items-center d-xl-flex">
+                <p class="fw-bold text-primary m-0">ورود</p>
+                <input type="text" placeholder="نام کاربری" class="form-control mx-2">
+                <div class="btn btn-outline-primary fw-bold">ورود</div>
+            </div>
+        </div>
+        <div>
+            <div class="btn btn-dark fw-bold">پروازها</div>
+        </div>
+    </div>
+
+    <div class="position-relative">
+        <img src="background3.webp" alt="" width="100%" class="img-fluid d-none d-xl-block" >
+        <div class="d-none d-xl-block position-absolute start-50 top-50 translate-middle">
+            <p class="fw-bold text-white fs-1">سفر بخیر ...</p>
+            <div class="rounded p-3 bg-cp">
+                <div class="d-flex align-items-center">
+                    <div class="form-check mx-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label fw-bold fs-7" for="flexRadioDefault1">
+                        یک طرفه
+                        </label>
+                    </div>
+                    <div class="form-check mx-2">
+                        <input class="form-check-input"lex type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+                        دو طرفه
+                        </label>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center py-2">
+
+                    <div>
+                        <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">مبدا</label>
+                        <input class="form-control inp-height inp-width" list="datalistOptions" id="exampleDataList" placeholder="شهر مبدا">
+                        <datalist id="datalistOptions">
+                        <option value="تهران">
+                        <option value="اصقهان">
+                        <option value="مشهد">
+                        <option value="سیرجان">
+                        <option value="شیراز">
+                        </datalist>
+                    </div>
+
+                    <div>
+                        <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">مقصد</label>
+                        <input class="form-control inp-height inp-width" list="datalistOptions" id="exampleDataList" placeholder="شهر مقصد">
+                        <datalist id="datalistOptions">
+                        <option value="تهران">
+                        <option value="اصقهان">
+                        <option value="مشهد">
+                        <option value="سیرجان">
+                        <option value="شیراز">
+                        </datalist>
+                    </div>
+                    <div>
+                        <labeb class="fw-bold fs-8">تاریخ رفت</labeb>
+                        <input type="date" name="" id="" class="from-control inp-height">
+                    </div>
+                    <div>
+                        <labeb class="fw-bold fs-8">تاریخ برگشت</labeb>
+                        <input type="date" name="" id="" class="from-control inp-height">
+                    </div>
+
+                    <div>
+                        <label for="" class="fw-bold fs-8">نوع پرواز</label>
+                        <select class="form-select inp-height inp-width" aria-label="Default select example">
+                            <option selected>انتخاب کنید</option>
+                            <option value="1">معمولی</option>
+                            <option value="2">با کلاس</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                          <div class="form-check from-chcke-inline ms-5">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                            <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+                              فقط پرواز مستقیم
+                            </label>
+                          </div>
+                    </div>
+                </div>
+                <div class="btn btn-dark fw-bold btn-lg inp-width">جستوجوی پروازها</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="d-block d-xl-none rounded-2 bg-cp py-3 px-3">
+        <img src="background3.webp" alt="" width="100%" class="img-fluid d-flex d-xl-block" >
+        <div class="d-flex align-items-center">
+            <div class="form-check mx-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label fw-bold fs-7" for="flexRadioDefault1">
+                یک طرفه
+                </label>
+            </div>
+            <div class="form-check mx-2">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label fw-bold fs-7" for="flexRadioDefault2">
+                دو طرفه
+                </label>
+            </div>
+        </div>
+        <div>
+            <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">مبدا</label>
+            <input class="form-control inp-height inp-width" list="datalistOptions" id="exampleDataList" placeholder="شهر مبدا">
+            <datalist id="datalistOptions">
+            <option value="تهران">
+            <option value="اصقهان">
+            <option value="مشهد">
+            <option value="سیرجان">
+            <option value="شیراز">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="exampleDataList" class="form-label fw-bold fs-8 m-0">مقصد</label>
+            <input class="form-control inp-height inp-width" list="datalistOptions" id="exampleDataList" placeholder="شهر مقصد">
+            <datalist id="datalistOptions">
+            <option value="تهران">
+            <option value="اصقهان">
+            <option value="مشهد">
+            <option value="سیرجان">
+            <option value="شیراز">
+            </datalist>
+        </div>
+
+
+
+        <div class="d-flex align-items-center justify-content-between">
+            <div>
+                <labeb class="fw-bold fs-8">تاریخ رفت</labeb>
+                <input type="date" name="" id="" class="from-control inp-height date-width">
+            </div>
+            <div>
+                <labeb class="fw-bold fs-8">تاریخ برگشت</labeb>
+                <input type="date" name="" id="" class="from-control inp-height date-width">
+            </div>
+
+            <div>
+                <label for="" class="fw-bold fs-8">نوع پرواز</label>
+                <select class="form-select inp-height inp-width" aria-label="Default select example">
+                    <option selected>انتخاب کنید</option>
+                    <option value="1">معمولی</option>
+                    <option value="2">با کلاس</option>
+                </select>
+            </div>
+        </div>
+        <div class="py-2">
+            <div>
+                <label for="" class="fw-bold fs-8">نوع پرواز</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>انتخاب کنید</option>
+                    <option value="1">معمولی</option>
+                    <option value="2">با کلاس</option>
+                  </select>
+            </div>
+
+            <div class="form-check from-chcke-inline ms-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                <label class="form-check-label fw-bold fs-8" for="flexCheckChecked">
+                فقط پرواز مستقیم
+                </label>
+            </div>
+            <div class="py-3">
+                <div class="btn btn-dark fw-bold form-control">
+                    جستوجوی پروازها
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

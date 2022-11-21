@@ -1,0 +1,31 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 100;
+    src: url("fonts/Vazir-Bold.eot");
+    src: url("fonts/Vazir-Bold.woff") format("woff"),
+    url("fonts/Vazir-Bold.ttf") format("ttf"),
+    url("fonts/Vazir-Bold.woff2") format("woff2");
+}
+body {
+    font-family: vazir;
+    direction: rtl;
+}
+.bg-cp{
+    background-color: #d3d6db;
+}
+.fs-7{
+    font-size: 20px;
+}
+.fs-8{
+    font-size: 20px;
+}
+.inp-width{
+    width: 240px;
+}
+.inp-height{
+    height: 52px;
+}
+.date-width{
+    width: 240px;
+}
