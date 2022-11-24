@@ -10,6 +10,10 @@
 body {
     font-family: vazir;
     direction: rtl;
+    /* background-image: url("background3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom 100px; */
 }
 .bg-cp{
     background-color: #d3d6db;
@@ -21,11 +25,15 @@ body {
     font-size: 20px;
 }
 .inp-width{
-    width: 240px;
+    width: 80%;
 }
 .inp-height{
-    height: 52px;
+    height: 40px;
 }
 .date-width{
     width: 240px;
+}
+
+#plus,#minus{
+  width: 40px; height: auto;
 }
