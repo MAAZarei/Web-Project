@@ -1,0 +1,1 @@
+file = fopen("c:\MyFile.txt", 3)
