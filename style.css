@@ -16,7 +16,7 @@ body {
     background-position: bottom 100px; */
 }
 .bg-cp{
-    background-color: #d3d6db;
+    background-color: white;
 }
 .fs-7{
     font-size: 20px;
@@ -33,7 +33,36 @@ body {
 .date-width{
     width: 240px;
 }
+<<<<<<< HEAD
 
 #plus,#minus{
   width: 40px; height: auto;
 }
+||||||| 9c0943c
+=======
+<<<<<<< Updated upstream
+||||||| constructed merge base
+
+#plus,#minus{
+  width: 40px; height: auto;
+}
+=======
+
+#plus,#minus{
+  width: 40px; height: auto;
+}
+@media (prefers-color-scheme: dark) {
+    .bg-cp{
+    background-color: black;
+    }
+    .fs-7{
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    .fs-8{
+        font-size: 20px;
+        color: whitesmoke;
+    }
+}
+>>>>>>> Stashed changes
+>>>>>>> maaz
