@@ -38,20 +38,19 @@ body {
 #plus,#minus{
   width: 40px; height: auto;
 }
-||||||| 9c0943c
-=======
-<<<<<<< Updated upstream
-||||||| constructed merge base
+
 
 #plus,#minus{
   width: 40px; height: auto;
 }
-=======
 
 #plus,#minus{
   width: 40px; height: auto;
 }
 @media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
     .bg-cp{
     background-color: black;
     }
@@ -63,6 +62,8 @@ body {
         font-size: 20px;
         color: whitesmoke;
     }
+    .dark-mode {
+        color: white;
+    }
 }
->>>>>>> Stashed changes
->>>>>>> maaz
+
