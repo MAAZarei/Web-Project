@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang=fa dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- Datepicker -->
     <link href='bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css' rel='stylesheet' type='text/css'>
@@ -16,7 +17,19 @@
     <title>بلیت ها</title>
     <link rel="stylesheet" href="style-ticket.css">
 </head>
+
 <body dir="rtl">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">جستجوی بلیت</a>
+        <div class="" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">خانه</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <table id="myInputTable" dir="rtl">
         <tr>
             <td>
@@ -27,14 +40,15 @@
             </td>
             <td>
                 <div>
-                    <input type="date" id="myInput3" class="from-control" onchange="search()" placeholder="تاریخ رفت" title="Type in a name">
+                    <input type="date" id="myInput3" class="from-control" onchange="search()" placeholder="تاریخ رفت"
+                        title="Type in a name">
                 </div>
             </td>
         </tr>
     </table>
 
 
-    <table id="myTable" dir="rtl">
+    <table class=" table-bordered border-primary" id="myTable" dir="rtl">
         <tr class="header">
             <th>مبدا</th>
             <th>مقصد</th>
@@ -45,45 +59,68 @@
             <td>تهران</td>
             <td>مشهد</td>
             <td>'2022-12-09'</td>
+            <th><a href="#" onclick="buy(1)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,000,000 تومان
+                </a></th>
+
         </tr>
         <tr>
             <td>اصفهان</td>
             <td>تهران</td>
             <td>'2022-12-09'</td>
+            <th><a href="#" onclick="buy(2)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,100,000 تومان
+                </a></th>
 
         </tr>
         <tr>
             <td>سیرجان</td>
             <td>شیراز</td>
             <td>'2022-12-09'</td>
+            <th><a href="#" onclick="buy(3)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,200,000 تومان
+                </a></th>
 
         </tr>
         <tr>
             <td>یزد</td>
             <td>سیرجان</td>
             <td>'2022-12-09'</td>
+            <th><a href="#" onclick="buy(4)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,300,000 تومان
+                </a></th>
 
         </tr>
         <tr>
             <td>تهران</td>
             <td>یزد</td>
             <td>'2022-12-10'</td>
+            <th><a href="#" onclick="buy(5)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,400,000 تومان
+                </a></th>
 
         </tr>
         <tr>
             <td>شیراز</td>
             <td>اصفهان</td>
             <td>'2022-12-10'</td>
+            <th><a href="#" onclick="buy(6)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,500,000 تومان
+                </a></th>
 
         </tr>
         <tr>
             <td>مشهد</td>
             <td>سیرجان</td>
             <td>'2022-12-10'</td>
+            <th><a href="#" onclick="buy(7)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+                    1,600,000 تومان
+                </a></th>
 
         </tr>
     </table>
     <script src="script-ticket.js"></script>
-   
+
 </body>
+
 </html>

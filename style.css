@@ -16,7 +16,10 @@ body {
     background-position: bottom 100px; */
 }
 .bg-cp{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+.bg-gray{
+    background-color: rgb(130, 130, 130);
 }
 .fs-7{
     font-size: 20px;
@@ -26,6 +29,9 @@ body {
 }
 .inp-width{
     width: 80%;
+}
+.inp-width-mosaferan{
+    width : 40%;
 }
 .inp-height{
     height: 40px;

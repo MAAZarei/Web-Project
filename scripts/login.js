@@ -13,7 +13,7 @@ btn.addEventListener("click", (e) => {
 
     if (localStorage.getItem(username.value) === password.value) {
         location.href="index.html";
-        alert("You have successfully logged in.");
+        localStorage.setItem("user",username.value)
     } else {
         loginErrorMsg.style.opacity = 1;
         username.value = "";
