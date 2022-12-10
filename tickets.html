@@ -44,6 +44,9 @@
                         title="Type in a name">
                 </div>
             </td>
+            <td>
+                <input type="text" id="myInput4" onchange="search()" placeholder="تعداد مسافران" title="Type in a name">
+            </td>
         </tr>
     </table>
 
@@ -53,15 +56,28 @@
             <th>مبدا</th>
             <th>مقصد</th>
             <th>تاریخ رفت</th>
+            <th>خرید</th>
+            <th>ساعت حرکت از مبدا</th>
+            <th>ساعت رسیدن به مقصد</th>
+            <th>ظرفیت باقیمانده</th>
 
         </tr>
         <tr>
             <td>تهران</td>
             <td>مشهد</td>
             <td>'2022-12-09'</td>
-            <th><a href="#" onclick="buy(1)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
+            <td><a href="#" onclick="buy(1)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,000,000 تومان
-                </a></th>
+                </a></td>
+            <td>16:00</td>
+            <td>17:30</td>
+            <td>10</td>
+            <!-- <td>
+                <div>
+                    <p id="capacity">10</p>
+                    <p id="login-error-msg" style="color: red; opacity: 0;">!ظرفیت رو به اتمام</p>
+                </div>
+            </td> -->
 
         </tr>
         <tr>
@@ -71,6 +87,13 @@
             <th><a href="#" onclick="buy(2)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,100,000 تومان
                 </a></th>
+                <td>16:00</td>
+                <td>17:30</td>
+                <td>
+                    <div id="login-error-msg-holder">
+                        <p id="login-error-msg">10</p>
+                      </div>
+                </td>
 
         </tr>
         <tr>
@@ -80,6 +103,13 @@
             <th><a href="#" onclick="buy(3)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,200,000 تومان
                 </a></th>
+                <td>16:00</td>
+                <td>17:30</td>
+                <td>
+                    <div id="login-error-msg-holder">
+                        <p id="login-error-msg">10</p>
+                      </div>
+                </td>
 
         </tr>
         <tr>
@@ -89,6 +119,13 @@
             <th><a href="#" onclick="buy(4)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,300,000 تومان
                 </a></th>
+                <td>16:00</td>
+                <td>17:30</td>
+                <td>
+                    <div id="login-error-msg-holder">
+                        <p id="login-error-msg">10</p>
+                      </div>
+                </td>
 
         </tr>
         <tr>
@@ -98,6 +135,13 @@
             <th><a href="#" onclick="buy(5)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,400,000 تومان
                 </a></th>
+                <td>16:00</td>
+                <td>17:30</td>
+                <td>
+                    <div id="login-error-msg-holder">
+                        <p id="login-error-msg">10</p>
+                      </div>
+                </td>
 
         </tr>
         <tr>
@@ -107,6 +151,13 @@
             <th><a href="#" onclick="buy(6)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,500,000 تومان
                 </a></th>
+                <td>16:00</td>
+                <td>17:30</td>
+                <td>
+                    <div id="login-error-msg-holder">
+                        <p id="login-error-msg">10</p>
+                      </div>
+                </td>
 
         </tr>
         <tr>
@@ -116,6 +167,13 @@
             <th><a href="#" onclick="buy(7)" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true">
                     1,600,000 تومان
                 </a></th>
+                <td>16:00</td>
+                <td>17:30</td>
+                <td>
+                    <div id="login-error-msg-holder">
+                        <p id="login-error-msg">10</p>
+                      </div>
+                </td>
 
         </tr>
     </table>
