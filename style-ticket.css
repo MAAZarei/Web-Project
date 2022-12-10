@@ -7,6 +7,10 @@
     url("fonts/Vazir-Bold.ttf") format("ttf"),
     url("fonts/Vazir-Bold.woff2") format("woff2");
 }
+body {
+  background: url("bg.png") no-repeat center center fixed; 
+  background-size: cover;
+}
 * {
     box-sizing: border-box;
     font-family: vazir;

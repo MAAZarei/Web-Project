@@ -10,11 +10,8 @@
 body {
     font-family: vazir;
     direction: rtl;
-    /* background-image: url("background3.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom 100px; */
 }
+
 .bg-cp{
     background-color: rgb(255, 255, 255);
 }

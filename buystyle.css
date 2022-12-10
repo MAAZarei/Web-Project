@@ -1,0 +1,9 @@
+body {
+    font-family: vazir;
+    direction: rtl;
+    background: url("background1.webp") no-repeat center center fixed; 
+    background-size: cover;
+}
+.bg-blue{
+    background-color: rgb(214, 217, 223);
+}
