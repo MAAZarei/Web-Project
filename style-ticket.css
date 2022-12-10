@@ -46,3 +46,36 @@
   #myTable tr:hover {
     background-color: #f1f1f1;
   }
+
+  @media (prefers-color-scheme: dark) {
+    body{
+    background-color: black;
+    color: whitesmoke;
+    }
+    #myTable tr.header,
+    #myTable tr:hover {
+      background-color: black;
+    }
+    #myTable tr {
+      border-bottom: 1px solid white;
+    }
+    #myTable {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid white;
+      font-size: 18px;
+    }
+
+    #myInput,
+    #myInput2 {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid black;
+      margin-bottom: 12px;
+    }
+
+}
