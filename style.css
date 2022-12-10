@@ -7,10 +7,53 @@
     url("fonts/Vazir-Bold.ttf") format("ttf"),
     url("fonts/Vazir-Bold.woff2") format("woff2");
 }
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 body {
     font-family: vazir;
     direction: rtl;
 }
+
+@keyframes example {
+    0%   {right:600px;width: 0;height: 0px;}
+    100% {right:0px;width: max-content/10;height: max-content/10;}
+  }
+  
+  /* The element to apply the animation to */
+  .airplane {
+    width:max-content/10;
+    height: max-content/10;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    animation-name: example;
+    animation-duration: 3s;
+  }
+
+  @keyframes movedown {
+    0%   {bottom:70px;}
+    100% {bottom:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .movedown {
+    position: relative;
+    animation-name: movedown;
+    animation-duration: 1.5s;
+  }
+  
 
 .bg-cp{
     background-color: rgb(255, 255, 255);
